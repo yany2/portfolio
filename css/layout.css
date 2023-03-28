@@ -21,10 +21,10 @@ body {
 /* Main Page Layout */
 
 #main-content {
-  margin: 225px 425px;
+  margin: 100px 425px;
   display: flex;
   flex-direction: column;
-  gap: 96px;
+  gap: 48px;
 }
 
 
@@ -54,7 +54,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 34px;
-  flex-basis: 50%;
+  flex-basis: 100%;
 }
 
 
@@ -71,7 +71,7 @@ body {
 .about-section-content {
   display: flex;
   flex-direction: column;
-  gap: 34px;
+  gap: 17px;
 }
 
 

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" href="../assets/images/1311.png" />
+		<title>János Horváth</title>
+		<meta name="description" content="A portfolio template for the Unemployables community.">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+			<link rel="stylesheet" href="../css/layout.css">
+		<link rel="stylesheet" href="../css/typography.css">
+		<link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="./js/script.js"></script>
+	</head>
+	<body>
+		<div class="navbar">
+			<a class="nav-title-link" href="../index.html">
+				<span class="nav-title">János Horváth</span>
+			</a>
+		</div>
+		
+		<div id="main-content">
+
+			<div id="project-header">
+			<div class="main-title">3D Tetris</div>
+			<div class="body-text">A 3D version of tetris inspired by Blockout, created using OpenGL.</div>
+			<image class="project-header-image" style="width:50%" src="https://raw.githubusercontent.com/yany2/3D-tetris/master/docs/screenshot.png"></image>
+			</div>
+			
+			<div class="subheader-text">Details</div>
+			<div class="project-details-content">
+				<div class="body-text">My 3D Tetris implementation started out as an OpenGL learning project. I followed the tutorial at <a href="https://learnopengl.com/">learnopengl.com</a> up to the point where I could have arbitrary 3D geometry and camera movement. I used GLFW for window creation, glad for loading OpenGL, glm for 3D math, and stb_image for loading textures. Once I had that, I wrote code that can render cubes arranged in a grid, including the current falling piece. Cubes in different layers have different colors to make their position clear at a glance. Separate code handles the movement and placement of the falling piece. It also clears layers once they are filled, as expected.</div>
+				<div class="body-text">The game could still use some work, including a better control control scheme, and different levels. However, I am not working on it currently. I converted it to use the module system introduced in the C++20 standard. While the current level of support for modules allowed me to build a working demo, it is not at a point where I would want to keep working with it. Once CMake recieves proper support for C++ modules, I might start working on it again. Until then, I will try to create something similar in Vulkan.</div>
+				<div class="body-text">Browse the source code or download the demo from the <a href="https://github.com/yany2/3D-tetris">GitHub repository</a>!</div>
+			</div>
+		</div>
+
+		<!-- FOOTER -->
+		<div id="footer">
+			<a class="icon-link" target="_blank" href="https://github.com/yany2">
+			<image src="../assets/icons/github.svg" class="footer-icon"/>
+			</a>
+			<a class="icon-link" target="_blank" href="https://www.linkedin.com/in/hjanos1/">
+			<image src="../assets/icons/linkedin.png" class="footer-icon"/>
+			</a>
+		</div>
+
+	</body>
+</html>
